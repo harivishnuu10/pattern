@@ -1,17 +1,9 @@
-import java.util.*;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-       
-        System.out.println("enter the number: ");
-        int n = scan.nextInt();
-        for(int i = 1; i <= n; i++) {
-            for(int j = 1; j <= n; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        scan.close();
+int n = 5;
+for (int i = 1; i <= n; i++) 
+{
+    for (int j = 1; j <= n; j++) 
+    {
+        System.out.print("* ");
     }
+    System.out.println();
 }
